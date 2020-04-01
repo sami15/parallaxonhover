@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    background: url("background.jpg") no-repeat;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.text h1{
+    font-family:  Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: wheat;
+    border: 1px solid rgb(19, 18, 18);
+    background: rgb(19, 18, 18);
+}

@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parallex Effect</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+</head>
+<body>
+    
+	<div id="container" class="container">
+        <div class="text">
+            <h1>CSS Parallex Effect</h1>
+        </div>
+		<div id="scene" class="scene">
+			<div data-depth="1.00"><img src="astronaut.png"></div>
+			<div data-depth="0.60"><img src="Neptune.png"></div>
+			<div data-depth="0.40"><img src="Mars.png"></div>
+			<div data-depth="0.80"><img src="rocket.png"></div>
+        </div>
+	</div>
+    <script>
+
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    
+        </script>
+</body>
+</html>
